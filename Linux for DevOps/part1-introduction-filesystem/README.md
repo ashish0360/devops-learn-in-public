@@ -6,8 +6,8 @@ LinkedIn: https://www.linkedin.com/in/ashish360/**
 
 **📘 Table of Contents**
 
-**Why Linux Matters in DevOps
-**
+**Why Linux Matters in DevOps**
+
 Linux System Architecture (Overview)
 
 Popular Linux Distributions for DevOps
@@ -16,7 +16,7 @@ Setting Up Linux (Quick Options)
 
 Package Managers — Quick Summary
 
-Filesystem & Directory Commands — Full Deep Dive
+**Filesystem & Directory Commands — Full Deep Dive**
 
 ls, pwd, cd, touch, mkdir, rmdir, rm, cp, mv, cat, tac, head, tail, wc, echo, cut, diff, ln, zcat, which, file
 
@@ -24,11 +24,11 @@ Practical Tips & Dangerous Flags to Avoid
 
 Where to Go Next
 
-Why Linux Matters in DevOps
+**Why Linux Matters in DevOps**
 
 Linux is the foundation of modern DevOps. Every major cloud provider (AWS, GCP, Azure), container runtime (Docker), orchestration system (Kubernetes), infra tool (Terraform), and automation platform (Ansible) runs on Linux. As a DevOps engineer, you’ll interact with Linux daily — servers, containers, CI runners, build agents — so mastering it is non-negotiable.
 
-Key strengths
+**Key strengths**
 
 Cost-effective: Open source, no licensing fees.
 
@@ -36,20 +36,14 @@ High performance: Lightweight, efficient resource management.
 
 Secure & reliable: Mature permission model, stable long-uptime systems.
 
-Linux System Architecture (Overview)
-+----------------------------------------------------+
-| User Applications (Docker, Vim, Git, Apache, etc.) |
-+----------------------------------------------------+
-| Shell (Bash, Zsh, Fish, etc.)                      |
-+----------------------------------------------------+
-| System Libraries (glibc, OpenSSL, etc.)            |
-+----------------------------------------------------+
-| System Utilities (ls, grep, ps, systemctl, etc.)   |
-+----------------------------------------------------+
-| Linux Kernel (Processes, Memory, FS, Network)      |
-+----------------------------------------------------+
-| Hardware (CPU, RAM, Disk, NICs, Peripherals)       |
-+----------------------------------------------------+
+**Linux System Architecture (Overview)**
+
+**User Applications (Docker, Vim, Git, Apache, etc.)
+Shell (Bash, Zsh, Fish, etc.) 
+System Libraries (glibc, OpenSSL, etc.)  
+System Utilities (ls, grep, ps, systemctl, etc.)
+Linux Kernel (Processes, Memory, FS, Network) 
+Hardware (CPU, RAM, Disk, NICs, Peripherals)**  
 
 
 Kernel: scheduling, memory, drivers, syscalls.
