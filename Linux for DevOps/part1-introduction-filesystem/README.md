@@ -1,13 +1,13 @@
-Introduction · Filesystem & Directory Commands
+**Introduction · Filesystem & Directory Commands
 
 By Ashish — Learn-in-Public DevOps Journey (Week 1)
 
-LinkedIn: https://www.linkedin.com/in/ashish360/
+LinkedIn: https://www.linkedin.com/in/ashish360/**
 
-📘 Table of Contents
+**📘 Table of Contents**
 
-Why Linux Matters in DevOps
-
+**Why Linux Matters in DevOps
+**
 Linux System Architecture (Overview)
 
 Popular Linux Distributions for DevOps
