@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
-# A simple hello world script
+#!/bin/bash
 
-echo "Hello, DevOps World!"
+echo "Hello DevOps — Welcome to Shell Scripting!"
