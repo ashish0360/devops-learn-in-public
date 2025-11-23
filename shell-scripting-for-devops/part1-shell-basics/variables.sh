@@ -1,11 +1,9 @@
-#!/usr/bin/env bash
+#!/bin/bash
+# Variables store values. No spaces allowed around "=".
+# To access variables, use $variable_name.
 
-# User-defined variable
 name="Ashish"
+course="DevOps Learn-in-Public"
 
-# System variables
-echo "User: $USER"
-echo "Home directory: $HOME"
-
-# Print custom variable
-echo "Hello, $name! Welcome to Shell Scripting."
+echo "My name is $name"
+echo "This is my $course journey"
