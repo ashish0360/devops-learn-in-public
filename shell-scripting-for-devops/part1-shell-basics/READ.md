@@ -38,3 +38,35 @@ Use a shebang to tell the kernel which interpreter to use:
 # or portable:
 #!/usr/bin/env bash
 
+## Make script executable
+chmod +x script.sh
+./script.sh
+# or
+bash script.sh
+
+## Variables
+name="Ashish"
+echo "Hello $name"
+
+## Read user input
+read -p "Enter your name: " username
+echo "Welcome $username"
+
+##Script arguments
+./script.sh arg1 arg2
+# Inside script:
+echo "Script: $0"
+echo "First arg: $1"
+
+## Useful set flags
+set -x — debug: print commands as they run
+set -e — exit on first error
+set -o pipefail — pipeline fails if any command fails
+
+## Common combined form:
+set -euo pipefail
+
+ ## Common command pipelines in scripts
+ps -ef | grep nginx | awk '{print $2}'
+ps -ef | grep python | wc -l
+curl -s http://api | jq '.'
