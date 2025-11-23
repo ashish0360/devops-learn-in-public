@@ -1,8 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/bash
+# read -p allows prompting user for input on the same line.
+# The value entered is stored inside the variable.
 
-# Read user input
-read -p "Enter your name: " username
-read -p "Enter your age: " age
-
-echo "Welcome $username!"
-echo "You are $age years old."
+read -p "Enter your username: " user
+echo "Welcome, $user!"
